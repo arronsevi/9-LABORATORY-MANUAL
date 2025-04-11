@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+    font-family: 'Orbitron', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0d0d0d; /* Dark space background */
+    color: #00ffcc; /* Neon alien text color */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #00ffcc;
+    border-radius: 10px;
+    background-color: #1a1a1a; /* Slightly lighter than body */
+    box-shadow: 0 0 15px #00ffcc; /* Alien glow */
+}
+
+h1 {
+    text-align: center;
+    color: #00ffcc;
+    text-shadow: 0 0 8px #00ffcc;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.option {
+    padding: 15px;
+    border: 1px solid #00ffcc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #262626;
+    color: #ccff00;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 8px #00ffcc;
+}
+
+.option:hover {
+    background-color: #333333;
+    box-shadow: 0 0 15px #ccff00;
+}
+
+.result {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #ccff00;
+    text-shadow: 0 0 6px #ccff00;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    background-color: #7d00ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 10px #7d00ff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #aa00ff;
+    box-shadow: 0 0 20px #aa00ff;
+}
