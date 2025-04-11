@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at center, #0f0f0f 0%, #000000 100%);
+  color: #00ffea;
+  font-family: 'Orbitron', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alien-container {
+  background-color: rgba(20, 20, 30, 0.85);
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 15px #00ffea, 0 0 30px #00ffea inset;
+}
+
+.alien-input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #00ffea;
+  background-color: #111;
+  color: #00ffea;
+  margin-right: 10px;
+  width: 60%;
+}
+
+.alien-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #00ffea;
+  color: #000;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.alien-button:hover {
+  background-color: #00ccbe;
+}
+
+.alien-result {
+  margin-top: 20px;
+  font-size: 1.4em;
+}
